@@ -6,6 +6,7 @@
 
 html {
     font-size: 2px;
+    margin: 0;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     padding: 1rem 10rem;
     font-size: 8rem;
     width: 100%;
-    max-width: 185rem;
+    max-width: 160rem;
     margin: 0;
 }
 nav{
@@ -21,6 +22,6 @@ nav{
     padding: 5rem 10rem;
     font-size: 5rem;
     width: 100%;
-    max-width: 185rem;
+    max-width: 160rem;
     margin: 0;
 }
