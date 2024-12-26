@@ -9,7 +9,7 @@ const file = fileInput.files[0];
 
     const reader = new FileReader();
     reader.onload = async function (event) {
-        const content = btoa(event.target.result); // Base64 encode
+        const content = btoa(event.target.result);
         const fileName = file.name;
 
         const repo = "mawd";
