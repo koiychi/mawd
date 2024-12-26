@@ -8,6 +8,10 @@ html {
     font-size: 2px;
     margin: 0;
 }
+body {
+    display: grid;
+    place-items: center;
+}
 
 header {
     background-color: aqua;
