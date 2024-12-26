@@ -1,0 +1,92 @@
+/* HTML */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    font-size: 2px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins";
+    background-color: #07090a;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* FOOTER */
+footer {
+    width: 745.8rem;
+}
+.link-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10rem;
+    width: 650rem;
+    height: 110rem;
+    background-color: #181f23;
+    margin-top: 120rem;
+    left: 50rem;
+    font-size: 12rem;
+    z-index: 2;
+}
+.links {
+    display: flex;
+    gap: 40px; 
+    z-index: 5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    z-index: 6;
+  }
+  
+  .links li {
+    margin: 5px 0;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    z-index: 7;
+  }
+  
+  .contact {
+    text-align: right;
+  }
+  
+  .contact p {
+    margin: 0 0 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 20rem; 
+  }
+  #link-features:hover {
+    color: #ea680a;
+    transition: color 0.3s ease;
+  }
+  #link-tutorials:hover {
+    color: #ea680a;
+    transition: color 0.3s ease;
+  }
+  #link-download:hover {
+    color: #ea680a;
+    transition: color 0.3s ease;
+  }
+  #link-aboutdevs:hover {
+    color: #ea680a;
+    transition: color 0.3s ease;
+  }
+  #link-email:hover{
+    color: #ea680a;
+    transition: color 0.3s ease;
+  }
