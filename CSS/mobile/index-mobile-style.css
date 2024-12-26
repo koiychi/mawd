@@ -31,18 +31,20 @@ body {
 
 nav {
     background-color: #4a67d0;
-    padding: 5rem 10rem;
+    padding: 0.5rem 10rem;
     font-size: 5rem;
     width: 100%;
     max-width: 160rem;
+    height: fit-content;
     margin: 0;
     border-bottom-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
     color: white;
+    margin-bottom: 10rem;
 }
 
 #streaks {
-    margin-top: 10rem;
+    margin-top: 30rem;
     color: white;
     width: 60%;
     margin: 0 auto;
