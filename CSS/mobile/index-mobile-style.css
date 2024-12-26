@@ -11,6 +11,7 @@ html {
 body {
     display: grid;
     place-items: center;
+    background-color: black;
 }
 
 header {
