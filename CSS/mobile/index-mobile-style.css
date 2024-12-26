@@ -25,6 +25,8 @@ body {
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
     color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
 }
 
 nav {
