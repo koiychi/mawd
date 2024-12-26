@@ -6,10 +6,14 @@
     <title>MAWD</title>
     <link rel="stylesheet" href="CSS/desktop/index-desktop-style.css">
     <link rel="stylesheet" href="CSS/mobile/index-mobile-style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="JS/SecLogin.js"></script>
 </head>
+
 <body>
     <header id="welcome">
-        <p>Welcome to <br> MAWD</p>
+        <p>Hello, World! <br>Hello, MAWD!</p>
     </header>
     <nav>
         <p>Academic Year 2024–2025</p>
@@ -18,13 +22,32 @@
     <!--STREAKS-->
     <section id="streaks">
         <header id="streak-head">
-            <p id="streak-tag">Secretary</p>
-            Streaks!
+            <p id="streak-tag">Attendance</p>
+            MAWD Streaks!
         </header>
         <img id="streak-img" src="Streaks/streak.png" alt="MAWD Streak">
         <footer id="streak-bottom">
             <p>Perfect Month Completers</p>
         </footer>
+    </section>
+
+    <!--ARCHIVE-->
+    <section id="archive">
+        <header id="archive-head">
+            <p id="archive-tag">Archive</p>
+            Archive
+        </header>
+        <section id="access">
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <br>
+                <input type="password" id="password" placeholder="Password" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+            <p id="message"></p>
+        </section>
+
     </section>
 
     
