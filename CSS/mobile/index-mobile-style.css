@@ -4,17 +4,14 @@
     font-family: "Poppins";
 }
 
-html {
+html, body {
     font-size: 2px;
     margin: 0;
     scroll-behavior: smooth;
     display: grid;
     place-items: center;
-}
-body {
-    display: grid;
-    place-items: center;
     background-color:  white;
+    height: 100;
 }
 
 #welcome {
@@ -46,11 +43,15 @@ nav {
 }
 
 #streaks {
+    position: relative;
     margin-top: 30rem;
     color: white;
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    left: 1.5%;
+    bottom: 30rem;
 }
 #streak-head {
     text-align: center;
@@ -116,11 +117,12 @@ nav {
 }
 
 #archive {
-    position: absolute;
-    top: 220rem;
+    position: relative;
+    top: 110rem;
     color: white;
-    width: 63%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: auto;
     text-align: center;
 }
 #archive-head {
@@ -174,16 +176,73 @@ nav {
     font-weight: bold;
     transition: all 0.5s ease;
 }
-
-@media (min-width: 1024px) {
-    html {
+@media (min-width: 320px) {
+    html, body {
         font-size: 5px;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2px;
+        scroll-behavior: smooth;
+        display: grid;
+        place-items: center;
+        background-color:  white;
+        height: 100;
+        scale: 0.90;
     }
     
     #streaks {
-        top: 70rem;
-        position: absolute;
-        left: 21%;
+        position: relative;
+        top: 15rem;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #archive {
+        position: relative;
+        top: 110rem;
+        margin-top: 50rem;
+        margin-left: 2%;
+        margin-right: auto;
+    }
+
+    #welcome, nav{
+        position: relative;
+        top: 10rem;
     }
 }
+@media (min-width: 1024px) {
+    html, body {
+        font-size: 5px;
+        margin: auto;
+        font-size: 2px;
+        margin: 0;
+        scroll-behavior: smooth;
+        display: grid;
+        place-items: center;
+        background-color:  white;
+        height: 100;
+        scale: 1.5;
+        margin-left: 10%;
+    }
+    
+    #streaks {
+        position: relative;
+        top: 30rem;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #archive {
+        position: relative;
+        top: 160rem;
+        margin-top: 10rem;
+        margin-left: 2%;
+        margin-right: auto;
+    }
+
+    #welcome, nav{
+        position: relative;
+        top: 30rem;
+    }
+}
+
